@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <title>Latest Builder</title>
     <meta content="Latest Builder" name="description">
-    <link rel="stylesheet" href="<?=base_url('public/custom/grapes/')?>stylesheets/toastr.min.css">
-    <link rel="stylesheet" href="<?=base_url('public/custom/grapes/')?>stylesheets/grapes.min44a5.css?v0.20.4">
-    <link rel="stylesheet" href="<?=base_url('public/custom/grapes/')?>stylesheets/grapesjs-preset-webpage.min.css">
-    <link rel="stylesheet" href="<?=base_url('public/custom/grapes/')?>stylesheets/tooltip.css">
-    <link rel="stylesheet" href="<?=base_url('public/custom/grapes/')?>stylesheets/demos43a0.css?v3">
+    <link rel="stylesheet" href="<?=base_url('grapes/')?>stylesheets/toastr.min.css">
+    <link rel="stylesheet" href="<?=base_url('grapes/')?>stylesheets/grapes.min44a5.css?v0.20.4">
+    <link rel="stylesheet" href="<?=base_url('grapes/')?>stylesheets/grapesjs-preset-webpage.min.css">
+    <link rel="stylesheet" href="<?=base_url('grapes/')?>stylesheets/tooltip.css">
+    <link rel="stylesheet" href="<?=base_url('grapes/')?>stylesheets/demos43a0.css?v3">
     <link href="https:/unpkg.com/grapick%400.1.13/dist/grapick.min.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script src="<?=base_url('public/custom/grapes/')?>js/toastr.min.js"></script>
-    <script src="<?=base_url('public/custom/grapes/')?>js/grapes.min44a5.js?v0.20.4"></script>
+    <script src="<?=base_url('grapes/')?>js/toastr.min.js"></script>
+    <script src="<?=base_url('grapes/')?>js/grapes.min44a5.js?v0.20.4"></script>
     <script src="https://unpkg.com/grapesjs-preset-webpage@1.0.2"></script>
     <script src="https://unpkg.com/grapesjs-blocks-basic@1.0.1"></script>
     <script src="https://unpkg.com/grapesjs-plugin-forms@2.0.5"></script>
@@ -29,7 +29,7 @@
     <script src="https://unpkg.com/grapesjs-typed@1.0.5"></script>
     <script src="https://unpkg.com/grapesjs-style-bg@2.0.1"></script>
     <!--plugins-->
-    <!--<script src="<?=base_url('public/custom/grapes/')?>js/grapesjs-swiper-slider.min.js"></script>-->
+    <!--<script src="<?=base_url('grapes/')?>js/grapesjs-swiper-slider.min.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/grapesjs-plugin-toolbox@1.0.15/dist/grapesjs-plugin-toolbox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/grapesjs-plugin-toolbox@1.0.15/dist/grapesjs-plugin-toolbox.min.js"></script>
@@ -44,34 +44,34 @@
           opacity: 0.9;
         }
         .icon-dir-row {
-          background: url("<?=base_url('public/custom/grapes/')?>img/flex-dir-row.png") no-repeat center;
+          background: url("<?=base_url('grapes/')?>img/flex-dir-row.png") no-repeat center;
         }
         .icon-dir-row-rev {
-          background: url("<?=base_url('public/custom/grapes/')?>img/flex-dir-row-rev.png") no-repeat center;
+          background: url("<?=base_url('grapes/')?>img/flex-dir-row-rev.png") no-repeat center;
         }
         .icon-dir-col {
-          background: url("<?=base_url('public/custom/grapes/')?>img/flex-dir-col.png") no-repeat center;
+          background: url("<?=base_url('grapes/')?>img/flex-dir-col.png") no-repeat center;
         }
         .icon-dir-col-rev {
-          background: url("<?=base_url('public/custom/grapes/')?>img/flex-dir-col-rev.png") no-repeat center;
+          background: url("<?=base_url('grapes/')?>img/flex-dir-col-rev.png") no-repeat center;
         }
         .icon-just-start{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-just-start.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-just-start.png") no-repeat center;
         }
         .icon-just-end{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-just-end.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-just-end.png") no-repeat center;
         }
         .icon-just-sp-bet{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-just-sp-bet.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-just-sp-bet.png") no-repeat center;
         }
         .icon-just-sp-ar{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-just-sp-ar.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-just-sp-ar.png") no-repeat center;
         }
         .icon-just-sp-cent{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-just-sp-cent.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-just-sp-cent.png") no-repeat center;
         }
         .icon-al-start{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-al-start.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-al-start.png") no-repeat center;
         }
         .icon-al-end{
          background: url("img/flex-al-end.png") no-repeat center;
@@ -80,7 +80,7 @@
          background: url("img/flex-al-str.png") no-repeat center;
         }
         .icon-al-center{
-         background: url("<?=base_url('public/custom/grapes/')?>img/flex-al-center.png") no-repeat center;
+         background: url("<?=base_url('grapes/')?>img/flex-al-center.png") no-repeat center;
         }
 
          [data-tooltip]::after {
@@ -120,14 +120,14 @@
   <body>
     <div style="display: none">
       <div class="gjs-logo-cont">
-        <h5><?=$page_name?></h5>
+        <h5>Home Page</h5>
         <div class="gjs-logo-version"></div>
       </div>
     </div>
     <div class="ad-cont">
       <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=grapesjscom" id="_carbonads_js"></script> -->
       <!--<div id="native-carbon"></div>-->
-      <script async type="text/javascript" src="<?=base_url('public/custom/grapes/')?>js/carbon-v2.js"></script>
+      <script async type="text/javascript" src="<?=base_url('grapes/')?>js/carbon-v2.js"></script>
     </div>
 
     <div id="gjs" style="height:0px; overflow:hidden">
@@ -161,7 +161,7 @@
     </div>
 
     <script type="text/javascript">
-      var lp = '<?=base_url('public/custom/grapes/')?>img/index.html';
+      var lp = '<?=base_url('grapes/')?>img/index.html';
       var plp = 'https://via.placeholder.com/350x250/';
       var images = [
         lp + 'team1.jpg',
