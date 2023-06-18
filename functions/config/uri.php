@@ -1,8 +1,7 @@
 <?php
 class uri{
     function segment($num){
-        $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $uri_segments = explode('/', $uri_path);
-        return $uri_segments[$num]; 
+        $segments = explode('/', trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'));
+        return isset($segments[$num])?$segments[$num]:''; 
     }
 }
